@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="work-section">
+      <section className="work-section" id='Work'>
         <h3>A selection of my work.</h3>
         <div className="work-grid">
           <div className="work-item">
@@ -42,7 +42,7 @@ const Home = () => {
         <a href="/" className="load-more">Load more projects +</a>
       </section>
 
-    <div class="second">
+    <div class="second" id='Characteristics'>
         <h1 class="random">My features are</h1>
         <div class="images-second">
             <div class="image-subtext">
@@ -68,7 +68,7 @@ const Home = () => {
         </div>
     </div>
 
-      <section className="resume-section">
+      <section className="resume-section" id='Résumé'>
         <h3>My résumé</h3>
         <div className="resume-grid">
           <div className="resume-item">
@@ -76,6 +76,8 @@ const Home = () => {
           </div>
           <div className="resume-item">
             <p><strong>Education:</strong><br/>
+            HBO ICT, Windesheim Almere - 2025 - present<br/>
+            <hr/>
             Software Development (vocational level 4), MBO College Almere - 2023-2025<br/>
             <hr/>
             VMBO Porteum, Lelystad - 2019-2023
@@ -83,7 +85,7 @@ const Home = () => {
           </div>
           <div className="resume-item">
             <p><strong>Work experience:</strong><br/>
-              - Hospitality employee at Fashion Café - 1 year and 9 months<br/>
+              - Hospitality employee at Fashion Café - 1 year and 9 months - present<br/>
             <hr/>
               - Internship Software Engineer intern Domits - 6 months<br/>
             <hr/>
