@@ -1,5 +1,12 @@
 import Navbar from './parts/navbar.js';
 import Img from './img/Sam.jpeg';
+import Img1 from './img/Doorzettingsvermogen.jpeg';
+import Img2 from './img/vasthoudent (2).jpeg';
+import Img3 from './img/efficient.png';
+import Img4 from './img/creatief.jpeg';
+import Img5 from './img/Coding meme.jpeg';
+
+
 
 
 const Home = () => {
@@ -39,23 +46,23 @@ const Home = () => {
         <h1 class="random">My features are</h1>
         <div class="images-second">
             <div class="image-subtext">
-                <img src={Img} alt="Doorzettingsvermogen"/>
+                <img src={Img1} alt="Doorzettingsvermogen"/>
                 <p>Perseverance</p>
             </div>
             <div class="image-subtext">
-                <img src={Img} alt="Vasthoudend"/>
+                <img src={Img2} alt="Vasthoudend"/>
                 <p>Persistent</p>
             </div>
             <div class="image-subtext">
-                <img src={Img} alt="Efficiënt"/>
+                <img src={Img3} alt="Efficiënt"/>
                 <p>Efficient</p>  
             </div>
             <div class="image-subtext">
-                <img src={Img} alt="Creatief"/>
+                <img src={Img4} alt="Creatief"/>
                 <p>Creative</p>
             </div>
             <div class="image-subtext">
-                <img src={Img} alt="Humor"/>
+                <img src={Img5} alt="Humor"/>
                 <p>Humor</p>
             </div>
         </div>

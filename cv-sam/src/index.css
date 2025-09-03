@@ -96,8 +96,14 @@ body {
 }
 
 .second {
-    padding: 15px;
-    width: 100%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .images-second {
