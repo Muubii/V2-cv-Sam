@@ -1,43 +1,102 @@
-import Navbar from './parts/navbar.js'
+import Navbar from './parts/navbar.js';
+import Img from './img/Sam.jpeg';
+
 
 const Home = () => {
   return (
-    <div> 
-        <Navbar/>
-    <div>    
-        <div>
-            <h2>Sam Siu</h2>
-            <h4>Software Developer</h4>
-            <p>My name is Sam, I am 18 years old, I study software development, and I am looking for an internship!</p>
-            <button>Contact me</button>
+    <div>
+      <Navbar />
+      <section className="intro-section">
+        <div className="intro-text">
+          <h2>Sam Siu</h2>
+          <h4>Software Developer</h4>
+          <p>
+            My name is Sam, I am 18 years old, I study software development, and I am looking for an internship!
+          </p>
+          <button><a href="mailto:siu7279@outlook.com" target="_blank">Contact me</a></button>
         </div>
+        <div className="intro-image">
+          <img src={Img} alt="Sam" />
+        </div>
+      </section>
 
-            <div>
-                <img src="random" alt="random" />
+      <section className="work-section">
+        <h3>A selection of my work.</h3>
+        <div className="work-grid">
+          <div className="work-item">
+            <a href="https://beeldhouwerwerkeilandlelystad.nl/" target="_blank" rel="noopener noreferrer">
+              Project 1
+            </a>
+          </div>
+          <div className="work-item"></div>
+          <div className="work-item"></div>
+          <div className="work-item"></div>
+        </div>
+        <a href="/" className="load-more">Load more projects +</a>
+      </section>
+
+    <div class="second">
+        <h1 class="random">My features are</h1>
+        <div class="images-second">
+            <div class="image-subtext">
+                <img src={Img} alt="Doorzettingsvermogen"/>
+                <p>Perseverance</p>
+            </div>
+            <div class="image-subtext">
+                <img src={Img} alt="Vasthoudend"/>
+                <p>Persistent</p>
+            </div>
+            <div class="image-subtext">
+                <img src={Img} alt="Efficiënt"/>
+                <p>Efficient</p>  
+            </div>
+            <div class="image-subtext">
+                <img src={Img} alt="Creatief"/>
+                <p>Creative</p>
+            </div>
+            <div class="image-subtext">
+                <img src={Img} alt="Humor"/>
+                <p>Humor</p>
             </div>
         </div>
-        
-        <div className='work-container'>
-            <h3>A selection of my work.</h3>
+    </div>
+
+      <section className="resume-section">
+        <h3>My résumé</h3>
+        <div className="resume-grid">
+          <div className="resume-item">
+            <p><strong>Languages I can speak:</strong><br/>Dutch<br/>English<br/>Cantonese/Mandarin</p>
+          </div>
+          <div className="resume-item">
+            <p><strong>Education:</strong><br/>
+            Software Development (vocational level 4), MBO College Almere - 2023-2025<br/>
+            <hr/>
+            VMBO Porteum, Lelystad - 2019-2023
+            </p>
+          </div>
+          <div className="resume-item">
+            <p><strong>Work experience:</strong><br/>
+              - Hospitality employee at Fashion Café - 1 year and 9 months<br/>
+            <hr/>
+              - Internship Software Engineer intern Domits - 6 months<br/>
+            <hr/>
+              - Hospitality employee at Patat Lin - 3 months<br/>
+            <hr/>
+              - Stock replenishment team member at Plus - 1 year
+            </p>
+          </div>
         </div>
+      </section>
 
-        <div className='selection-container'>
-            <h3>My characteristics are</h3>
-        </div>
-
-
-        <div className='resume-container'>
-            <h3>My résumé </h3>
-        </div>
-
-    <footer>
-        <p>© 2024 Sam Siu. All rights reserved.</p>
-        <ul className='footer-links'>
-            <li><a href="/">Linkedin</a></li>
-            <li><a href="/">Contact</a></li>
-            <li><a href="/">Github</a></li>
-       </ul>
-    </footer>
+      <footer>
+        <p>© 2025 Sam Siu. All rights reserved.</p>
+        <ul className="footer-links">
+          <li><a href="https://www.linkedin.com/in/sam-siu-77b44b256/">Linkedin</a></li>
+          <li><a href="mailto:siu7279@outlook.com" target="_blank">Contact</a></li>
+          
+          <li><a href="https://github.com/Muubii">Github</a></li>
+        </ul>
+      </footer>
     </div>
   );
 };
