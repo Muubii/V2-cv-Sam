@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/V2-cv-Sam/static/css/main.3f076bd7.css",
+    "main.js": "/V2-cv-Sam/static/js/main.57404a26.js",
+    "static/js/453.99028192.chunk.js": "/V2-cv-Sam/static/js/453.99028192.chunk.js",
+    "static/media/efficient.png": "/V2-cv-Sam/static/media/efficient.b7113a3dfd55ed7dd6d5.png",
+    "static/media/Sam.jpeg": "/V2-cv-Sam/static/media/Sam.7d9532a6fc8329dc9bce.jpeg",
+    "static/media/vasthoudent (2).jpeg": "/V2-cv-Sam/static/media/vasthoudent (2).e12bf389d74fe56402a6.jpeg",
+    "static/media/Coding meme.jpeg": "/V2-cv-Sam/static/media/Coding meme.ec6b759ff332f37e7145.jpeg",
+    "static/media/creatief.jpeg": "/V2-cv-Sam/static/media/creatief.e82a58ff19c43caa7439.jpeg",
+    "static/media/Doorzettingsvermogen.jpeg": "/V2-cv-Sam/static/media/Doorzettingsvermogen.42ede544ddc7782c14dd.jpeg",
+    "index.html": "/V2-cv-Sam/index.html",
+    "main.3f076bd7.css.map": "/V2-cv-Sam/static/css/main.3f076bd7.css.map",
+    "main.57404a26.js.map": "/V2-cv-Sam/static/js/main.57404a26.js.map",
+    "453.99028192.chunk.js.map": "/V2-cv-Sam/static/js/453.99028192.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f076bd7.css",
+    "static/js/main.57404a26.js"
+  ]
+}
