@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/V2-cv-Sam/static/css/main.20aa6c4b.css",
-    "main.js": "/V2-cv-Sam/static/js/main.f3f1f803.js",
+    "main.css": "/V2-cv-Sam/static/css/main.e450ffec.css",
+    "main.js": "/V2-cv-Sam/static/js/main.eba0f3ae.js",
     "static/js/453.99028192.chunk.js": "/V2-cv-Sam/static/js/453.99028192.chunk.js",
     "static/media/efficient.png": "/V2-cv-Sam/static/media/efficient.b7113a3dfd55ed7dd6d5.png",
     "static/media/Sam.jpeg": "/V2-cv-Sam/static/media/Sam.7d9532a6fc8329dc9bce.jpeg",
@@ -10,12 +10,12 @@
     "static/media/creatief.jpeg": "/V2-cv-Sam/static/media/creatief.e82a58ff19c43caa7439.jpeg",
     "static/media/Doorzettingsvermogen.jpeg": "/V2-cv-Sam/static/media/Doorzettingsvermogen.42ede544ddc7782c14dd.jpeg",
     "index.html": "/V2-cv-Sam/index.html",
-    "main.20aa6c4b.css.map": "/V2-cv-Sam/static/css/main.20aa6c4b.css.map",
-    "main.f3f1f803.js.map": "/V2-cv-Sam/static/js/main.f3f1f803.js.map",
+    "main.e450ffec.css.map": "/V2-cv-Sam/static/css/main.e450ffec.css.map",
+    "main.eba0f3ae.js.map": "/V2-cv-Sam/static/js/main.eba0f3ae.js.map",
     "453.99028192.chunk.js.map": "/V2-cv-Sam/static/js/453.99028192.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20aa6c4b.css",
-    "static/js/main.f3f1f803.js"
+    "static/css/main.e450ffec.css",
+    "static/js/main.eba0f3ae.js"
   ]
 }
