@@ -35,9 +35,13 @@ const Home = () => {
               Project 1
             </a>
           </div>
-          <div className="work-item"></div>
-          <div className="work-item"></div>
-          <div className="work-item"></div>
+          <div className="work-item">
+                <a href="https://orgelconcertenflevoland.nl/" target="_blank" rel="noopener noreferrer">
+              Project 2
+            </a>
+          </div>
+          {/* <div className="work-item"></div>
+          <div className="work-item"></div> */}
         </div>
         {/* <a href="/" className="load-more">Load more projects +</a> */}
       </section>
