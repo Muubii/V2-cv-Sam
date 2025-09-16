@@ -93,9 +93,9 @@ const Home = () => {
             <hr/>
               - Internship Software Engineer intern Domits - 6 months<br/>
             <hr/>
-              - Hospitality employee at Patat Lin - 3 months<br/>
+              - Stock replenishment team member at Plus - 1 year and 3 months
             <hr/>
-              - Stock replenishment team member at Plus - 1 year
+              - Hospitality employee at Patat Lin - 3 months<br/>
             </p>
           </div>
         </div>
