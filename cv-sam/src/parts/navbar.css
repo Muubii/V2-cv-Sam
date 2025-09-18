@@ -1,3 +1,54 @@
+/* About Popup Styles */
+.about-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(30, 30, 40, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.about-popup {
+    background: #23243a;
+    color: #fff;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    max-width: 400px;
+    width: 90vw;
+    position: relative;
+    text-align: left;
+}
+
+.about-popup h2 {
+    margin-top: 0;
+    color: #ffd700;
+    font-size: 2rem;
+}
+
+.about-popup p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.about-close:hover {
+    color: #ffd700;
+}
 .navbar {
     display: flex;
     flex-direction: row;
@@ -69,7 +120,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .navbar {
         flex-direction: column;
         height: auto;
