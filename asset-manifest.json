@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/V2-cv-Sam/static/css/main.dd753d3e.css",
+    "main.css": "/V2-cv-Sam/static/css/main.c3e190e6.css",
     "main.js": "/V2-cv-Sam/static/js/main.f3818f3b.js",
     "static/js/453.99028192.chunk.js": "/V2-cv-Sam/static/js/453.99028192.chunk.js",
     "static/media/efficient.png": "/V2-cv-Sam/static/media/efficient.b7113a3dfd55ed7dd6d5.png",
@@ -10,12 +10,12 @@
     "static/media/creatief.jpeg": "/V2-cv-Sam/static/media/creatief.e82a58ff19c43caa7439.jpeg",
     "static/media/Doorzettingsvermogen.jpeg": "/V2-cv-Sam/static/media/Doorzettingsvermogen.42ede544ddc7782c14dd.jpeg",
     "index.html": "/V2-cv-Sam/index.html",
-    "main.dd753d3e.css.map": "/V2-cv-Sam/static/css/main.dd753d3e.css.map",
+    "main.c3e190e6.css.map": "/V2-cv-Sam/static/css/main.c3e190e6.css.map",
     "main.f3818f3b.js.map": "/V2-cv-Sam/static/js/main.f3818f3b.js.map",
     "453.99028192.chunk.js.map": "/V2-cv-Sam/static/js/453.99028192.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd753d3e.css",
+    "static/css/main.c3e190e6.css",
     "static/js/main.f3818f3b.js"
   ]
 }
