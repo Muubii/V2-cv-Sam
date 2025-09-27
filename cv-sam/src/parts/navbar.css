@@ -129,7 +129,6 @@
 
     .nav-links {
         flex-wrap: wrap;
-        width: 100%;
         gap: 15px;
         height: auto;
         padding: 10px;
