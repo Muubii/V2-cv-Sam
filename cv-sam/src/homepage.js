@@ -1,5 +1,5 @@
 import Navbar from './parts/navbar.js';
-import Img from './img/Sam.jpeg';
+import Img from './img/Muubii.png';
 import Img1 from './img/Doorzettingsvermogen.jpeg';
 import Img2 from './img/vasthoudent (2).jpeg';
 import Img3 from './img/efficient.png';
@@ -89,7 +89,7 @@ const Home = () => {
           </div>
           <div className="resume-item">
             <p><strong>Work experience:</strong><br/>
-              - Hospitality employee at Fashion Café - 1 year and 9 months - present<br/>
+              - Hospitality employee at Fashion Café - 1 year and 10 months - present<br/>
             <hr/>
               - Internship Software Engineer intern Domits - 6 months<br/>
             <hr/>
