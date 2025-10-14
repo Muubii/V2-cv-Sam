@@ -89,6 +89,7 @@ const Home = () => {
           </div>
           <div className="resume-item">
             <p><strong>Work experience:</strong><br/>
+            
               - Hospitality employee at Fashion Café - 1 year and 10 months - present<br/>
             <hr/>
               - Internship Software Engineer intern Domits - 6 months<br/>
