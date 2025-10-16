@@ -43,7 +43,7 @@ const Home = () => {
           {/* <div className="work-item"></div>
           <div className="work-item"></div> */}
         </div>
-        {/* <a href="/" className="load-more">Load more projects +</a> */}
+        {/* <a href="/" className="load-more">Load more projects +</a> */} 
       </section>
 
     <div class="second" id='Characteristics'>
