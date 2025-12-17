@@ -13,12 +13,12 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <section className="intro-section">
+      <section className="intro-section" id='Home'>
         <div className="intro-text">
           <h2>Sam Siu</h2>
           <h4>Software Developer</h4>
           <p>
-            My name is Sam, I am 18 years old, I study software development, and I am looking for an internship!
+            MBO Software Development graduate (18 years old) currently pursuing HBO ICT. Seeking an internship to apply my skills in real-world projects and gain professional experience. 
           </p>
           <button><a href="mailto:siu7279@outlook.com" target="_blank">Contact me</a></button>
         </div>
@@ -30,16 +30,16 @@ const Home = () => {
       <section className="work-section" id='Work'>
         <h3>A selection of my work.</h3>
         <div className="work-grid">
-          <div className="work-item">
-            <a href="https://beeldhouwerwerkeilandlelystad.nl/" target="_blank" rel="noopener noreferrer">
+          <a href="https://beeldhouwerwerkeilandlelystad.nl/" target="_blank" rel="noopener noreferrer" className="work-link">
+            <div className="work-item">
               Project 1
-            </a>
-          </div>
-          <div className="work-item">
-                <a href="https://orgelconcertenflevoland.nl/" target="_blank" rel="noopener noreferrer">
+            </div>
+          </a>
+          <a href="https://orgelconcertenflevoland.nl/" target="_blank" rel="noopener noreferrer" className="work-link">
+            <div className="work-item">
               Project 2
-            </a>
-          </div>
+            </div>
+          </a>
           {/* <div className="work-item"></div>
           <div className="work-item"></div> */}
         </div>
@@ -90,7 +90,7 @@ const Home = () => {
           <div className="resume-item">
             <p><strong>Work experience:</strong><br/>
             
-              - Hospitality employee at Fashion Café - 1 year and 10 months - present<br/>
+              - Hospitality employee at Fashion Café - 2 years - present<br/>
             <hr/>
               - Internship Software Engineer intern Domits - 6 months<br/>
             <hr/>
