@@ -7,7 +7,6 @@
 ## Features
 
 * Improved project structure compared to the original version
-* AI-generated hardcoded components
 * Simple, lightweight design for a personal CV
 
 ---
