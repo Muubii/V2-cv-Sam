@@ -72,35 +72,33 @@ const Home = () => {
         </div>
     </div>
 
-      <section className="resume-section" id='Résumé'>
-        <h3>My résumé</h3>
-        <div className="resume-grid">
-          <div className="resume-item">
-            <p><strong>Languages I can speak:</strong><br/>Dutch<br/>English<br/>Cantonese/Mandarin</p>
-          </div>
-          <div className="resume-item">
-            <p><strong>Education:</strong><br/>
-            HBO ICT, Windesheim Almere - 2025 - present<br/>
-            <hr/>
-            Software Development (vocational level 4), MBO College Almere - 2023-2025<br/>
-            <hr/>
-            VMBO Porteum, Lelystad - 2019-2023
-            </p>
-          </div>
-          <div className="resume-item">
-            <p><strong>Work experience:</strong><br/>
-            
-              - Hospitality employee at Fashion Café - 2 years - present<br/>
-            <hr/>
-              - Internship Software Engineer intern Domits - 6 months<br/>
-            <hr/>
-              - Stock replenishment team member at Plus - 1 year and 3 months
-            <hr/>
-              - Hospitality employee at Patat Lin - 3 months<br/>
-            </p>
-          </div>
+    <section className="resume-section" id="Résumé">
+      <h3>My résumé</h3>
+      <div className="resume-grid">
+        <div className="resume-item">
+          <p><strong>Languages I can speak:</strong><br/>Dutch<br/>English<br/>Cantonese/Mandarin</p>
         </div>
-      </section>
+        <div className="resume-item">
+          <p><strong>Education:</strong></p>
+          <div>HBO ICT, Windesheim Almere - 2025 - present</div>
+          <hr />
+          <div>Software Development (vocational level 4), MBO College Almere - 2023-2025</div>
+          <hr />
+          <div>VMBO Porteum, Lelystad - 2019-2023</div>
+        </div>
+        <div className="resume-item">
+          <p><strong>Work experience:</strong></p>
+          <div>- Hospitality employee at Fashion Café - 2 years - present</div>
+          <hr />
+          <div>- Internship Software Engineer intern Domits - 6 months</div>
+          <hr />
+          <div>- Stock replenishment team member at Plus - 1 year and 3 months</div>
+          <hr />
+          <div>- Hospitality employee at Patat Lin - 3 months</div>
+        </div>
+      </div>
+    </section>
+
 
       <footer>
         <p>© 2025 Sam Siu. All rights reserved.</p>

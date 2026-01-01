@@ -13,7 +13,7 @@
 }
 
 .about-popup {
-    background: #23243a;
+    background: #2844aa;
     color: #fff;
     padding: 2.5rem 2rem 2rem 2rem;
     border-radius: 16px;
@@ -22,6 +22,11 @@
     width: 90vw;
     position: relative;
     text-align: left;
+}
+
+.about-popup ::selection{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
 }
 
 .about-popup h2 {
@@ -97,10 +102,28 @@
     padding-right: 25vh;
 }
 
-.nav-links li {
+.nav-links button {
     display: flex;
     align-items: center;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
 }
+
+.nav-links button:hover {
+    background: #495fb0;
+    box-shadow: 0 12px 30px rgba(46,60,120,0.16);
+}
+
+.nav-links button:hover a {
+    color: #ffffff !important;  
+}
+
+
+
 
 .nav-links a {
     color: #403A35;

@@ -17,11 +17,11 @@ function Navbar() {
       <nav className="navbar">
         <h1>Sam Siu</h1>
         <ul className='nav-links'>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#Work">Work</a></li>
-          <li><a href="#Characteristics">Characteristics</a></li>
-          <li><a href="#Résumé">Résumé</a></li>
-          <li><a href="#about" onClick={openAbout}>About</a></li>
+          <button><a href="#Home">Home</a></button>
+          <button><a href="#Work">Work</a></button>
+          <button><a href="#Characteristics">Characteristics</a></button>
+          <button><a href="#Résumé">Résumé</a></button>
+          <button><a href="#about" onClick={openAbout}>About</a></button>
         </ul>
       </nav>
       {showAbout && (
