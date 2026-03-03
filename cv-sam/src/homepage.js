@@ -6,8 +6,23 @@ import Img3 from './img/efficient.png';
 import Img4 from './img/creatief.jpeg';
 import Img5 from './img/Coding meme.jpeg';
 
+const calculateEmploymentDuration = (startDate) => {
+  const now = new Date();
+  let years = now.getFullYear() - startDate.getFullYear();
+  let months = now.getMonth() - startDate.getMonth() + 1;
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+  let result = `${years} year${years !== 1 ? 's' : ''}`;
+  if (months > 0) {
+    result += ` ${months} month${months !== 1 ? 's' : ''}`;
+  }
+  return result;
+};
 
-
+const beginJob = new Date("01/03/2024");
+const currently  = calculateEmploymentDuration(beginJob);
 
 const Home = () => {
   return (
@@ -18,7 +33,7 @@ const Home = () => {
           <h2>Sam Siu</h2>
           <h4>Software Developer</h4>
           <p>
-            MBO Software Development graduate (18 years old) currently pursuing HBO ICT. Seeking an internship to apply my skills in real-world projects and gain professional experience. 
+            MBO Software Development graduate (19 years old) currently pursuing HBO ICT. Seeking an internship to apply my skills in real-world projects and gain professional experience. 
           </p>
           <button><a href="mailto:siu7279@outlook.com" target="_blank">Contact me</a></button>
         </div>
@@ -88,7 +103,7 @@ const Home = () => {
         </div>
         <div className="resume-item">
           <p><strong>Work experience:</strong></p>
-          <div>- Hospitality employee at Fashion Café - 2 years - present</div>
+          <div>- Hospitality employee at Fashion Café - {currently}  - present</div> 
           <hr />
           <div>- Internship Software Engineer intern Domits - 6 months</div>
           <hr />
@@ -110,6 +125,7 @@ const Home = () => {
         </ul>
       </footer>
     </div>
+
   );
 };
 

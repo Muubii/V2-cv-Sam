@@ -130,7 +130,6 @@ a, button {
   margin-top: 1rem;
 }
 
-/* make the whole work box clickable */
 .work-grid .work-link {
   display: block;
   height: 100%;
@@ -141,14 +140,14 @@ a, button {
 .work-link .work-item {
   height: 20vh;
   border-radius: 8px;
-  background: linear-gradient(180deg, #f6f8ff 0%, #2866da 100%);
+  background-color: #5e73c2;
   box-shadow: 0 4px 12px rgba(18, 24, 40, 0.06);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem;
   transition: transform 0.18s ease, box-shadow 0.18s ease;
-  color: #1b2540;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -162,8 +161,6 @@ a, button {
   outline: 2px solid rgba(59,130,246,0.25);
   outline-offset: 4px;
 }
-
-
 
 .resume-section {
   padding: 2rem;
@@ -217,7 +214,6 @@ a, button {
   box-sizing: border-box;
 }
 
-/* make the image group responsive using CSS Grid */
 .images-second {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -229,7 +225,6 @@ a, button {
   box-sizing: border-box;
 }
 
-/* constrain each card and center its content */
 .image-subtext {
   text-align: center;
   max-width: 320px;
@@ -252,13 +247,11 @@ a, button {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* hover effect stays but scaled a bit smoother */
 .image-subtext img:hover {
   transform: translateY(-6px) scale(1.04);
   box-shadow: 0 8px 22px rgba(0,0,0,0.18);
 }
 
-/* text under images is readable and responsive */
 .image-subtext p {
   margin: 0;
   font-size: clamp(0.9rem, 1.6vw, 1.05rem);
@@ -280,13 +273,14 @@ footer {
 }
 
 .resume-item {
-  background: #8cb7e493;
+  background: #5e73c2;
   border-radius: 6px;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   font-size: 1.1rem;
   text-align: left;
+  color: white;
 }
 
 .resume-item hr {
@@ -301,7 +295,6 @@ footer {
   color: #007bff;
 }
 
-/* larger layout: put intro text and images side-by-side if needed */
 @media (min-width: 900px) {
   .second {
     grid-template-columns: 1fr;

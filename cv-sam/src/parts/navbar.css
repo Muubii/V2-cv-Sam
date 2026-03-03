@@ -13,7 +13,7 @@
 }
 
 .about-popup {
-    background: #2844aa;
+    background: #5e73c2;
     color: #fff;
     padding: 2.5rem 2rem 2rem 2rem;
     border-radius: 16px;
@@ -26,7 +26,7 @@
 
 .about-popup ::selection{
     color: rgb(0, 0, 0);
-    background-color: aqua;
+    background-color: #a3b3eb;
 }
 
 .about-popup h2 {
@@ -121,9 +121,6 @@
 .nav-links button:hover a {
     color: #ffffff !important;  
 }
-
-
-
 
 .nav-links a {
     color: #403A35;
