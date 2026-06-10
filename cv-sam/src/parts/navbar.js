@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './navbar.css';
 
@@ -30,10 +29,13 @@ function Navbar() {
             <button className="about-close" onClick={closeAbout}>&times;</button>
             <h2>About Me</h2>
             <p>
-              Hi! I'm Sam Siu, a passionate software developer currently studying at Windesheim in Almere. I love building web applications, learning new technologies, and collaborating with others. I'm fluent in Dutch, English, and my mother Language is Cantonese/Mandarin.<br/><br/>
-              I've learned Java, Javascript, PHP, and MySQL through my studies and projects. I've also developed strong teamwork, communication, and problem-solving skills. My goal is to become a full-stack developer, always eager to learn and grow. <br/><br/>
-              Feel free to check out my projects to see my work and journey as a developer.<br/><br/>
-              In my free time, I enjoy creative projects, exploring tech trends, and working on personal growth.
+              Hi! I'm Sam Siu, an HBO ICT student and full-stack developer based in the Netherlands. I focus on building modern web applications using technologies like React, Node.js, and databases, with an interest in scalable system design and clean architecture.
+              <br /><br />
+              I have a background in software development (MBO), where I gained experience with Java, JavaScript, PHP, and MySQL. Since then, I've been expanding my skills through projects involving full-stack development, backend systems, and cloud technologies.
+              <br /><br />
+              In addition to web development, I have hands-on experience managing game server infrastructure, which has strengthened my understanding of real-world systems, performance, and deployment.
+              <br /><br />
+              I'm driven by continuous learning and enjoy turning ideas into practical, user-focused solutions. Currently, I'm looking for opportunities to grow as a developer and gain real-world experience in IT and development.
             </p>
           </div>
         </div>

@@ -47,17 +47,27 @@ const Home = () => {
         <div className="work-grid">
           <a href="https://beeldhouwerwerkeilandlelystad.nl/" target="_blank" rel="noopener noreferrer" className="work-link">
             <div className="work-item">
-              Project 1
+              Beeldhouwer Werkeiland Lelystad
             </div>
           </a>
           <a href="https://orgelconcertenflevoland.nl/" target="_blank" rel="noopener noreferrer" className="work-link">
             <div className="work-item">
-              Project 2
+              Orgelconcerten Flevoland
             </div>
           </a>
+
+          <a href="http://newwhite.nl/" target="_blank" rel="noopener noreferrer" className="work-link">
+            <div className="work-item">
+              NewWhite
+            </div>
+          </a>
+
+          
           {/* <div className="work-item"></div>
           <div className="work-item"></div> */}
         </div>
+
+        
         {/* <a href="/" className="load-more">Load more projects +</a> */} 
       </section>
 
