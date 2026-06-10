@@ -35,6 +35,7 @@ const Home = () => {
           <p>
             MBO Software Development graduate (19 years old) currently pursuing HBO ICT. Seeking an internship to apply my skills in real-world projects and gain professional experience. 
           </p>
+          {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <button><a href="mailto:siu7279@outlook.com" target="_blank">Contact me</a></button>
         </div>
         <div className="intro-image">
@@ -129,6 +130,7 @@ const Home = () => {
         <p>© 2025 Sam Siu. All rights reserved.</p>
         <ul className="footer-links">
           <li><a href="https://www.linkedin.com/in/sam-siu-77b44b256/">Linkedin</a></li>
+          {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <li><a href="mailto:siu7279@outlook.com" target="_blank">Contact</a></li>
           
           <li><a href="https://github.com/Muubii">Github</a></li>
