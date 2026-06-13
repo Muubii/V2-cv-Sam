@@ -163,10 +163,11 @@ a, button {
 }
 
 .resume-section {
-  padding: 2rem;
+  padding: 3rem 2rem;
   text-align: left;
-  width: 50%;
+  max-width: 1200px;
   margin: 2rem auto;
+  box-sizing: border-box;
 }
 
 .resume-section h3 {
@@ -183,14 +184,6 @@ a, button {
 
 .work-grid {
   grid-template-columns: repeat(2, 1fr);
-}
-
-
-.resume-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
 }
 
 .work-item{
